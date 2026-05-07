@@ -93,21 +93,6 @@
       "homepage": "https://github.com/AikidoSec/aikido-claude-plugin"
     },
     {
-      "name": "aiven",
-      "description": "Easily deploy managed PostgreSQL, Kafka, OpenSearch, Clickhouse, and other databases, streaming, and apps through Aiven. Free tier available, up and running in minutes.",
-      "author": {
-        "name": "Aiven"
-      },
-      "category": "database",
-      "source": {
-        "source": "github",
-        "repo": "aiven/aiven-ai-plugins",
-        "commit": "d2a7697b53826588d0faf795f39d2aa2362330da",
-        "sha": "d2a7697b53826588d0faf795f39d2aa2362330da"
-      },
-      "homepage": "https://aiven.io"
-    },
-    {
       "name": "alloydb",
       "description": "Create, connect, and interact with an AlloyDB for PostgreSQL database and data.",
       "author": {
@@ -199,20 +184,6 @@
         "sha": "9b52fb18e184edc307ce33f8bf4cdf148dedf1f2"
       },
       "homepage": "https://github.com/atlassian/atlassian-mcp-server"
-    },
-    {
-      "name": "atlassian-forge-skills",
-      "description": "Forge-focused skill bundle and MCP tooling for Atlassian Forge: scaffold apps, review before deploy, debug production issues, and stay current on Forge APIs and the Atlassian Design System.",
-      "author": {
-        "name": "Atlassian Labs"
-      },
-      "category": "development",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/atlassian/forge-skills.git",
-        "sha": "9999904da629e0413db0343daeff863af311e8ab"
-      },
-      "homepage": "https://developer.atlassian.com"
     },
     {
       "name": "atomic-agents",
@@ -1662,19 +1633,6 @@
       }
     },
     {
-      "name": "sagemaker-ai",
-      "description": "Build, train, and deploy AI models with deep AWS AI/ML expertise brought directly into your coding assistants, covering the surface area of Amazon SageMaker AI.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/awslabs/agent-plugins.git",
-        "path": "plugins/sagemaker-ai",
-        "ref": "main",
-        "sha": "6cfb70e55aa142a8eda66e6ef7966d5921bdf9a2"
-      },
-      "homepage": "https://github.com/awslabs/agent-plugins"
-    },
-    {
       "name": "sanity",
       "description": "Sanity content platform integration with MCP server, agent skills, and slash commands. Query and author content, build and optimize GROQ queries, design schemas, and set up Visual Editing.",
       "category": "development",
@@ -1876,20 +1834,6 @@
       "homepage": "https://sourcegraph.com"
     },
     {
-      "name": "speakai",
-      "description": "Search transcripts, summarize meetings, extract quotes, create clips, and manage Speak AI media through MCP.",
-      "author": {
-        "name": "Speak AI"
-      },
-      "category": "productivity",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/speakai/speakai-mcp.git",
-        "sha": "3fdf9d7b9bde86274eba60ce3d26f3588a19c1b9"
-      },
-      "homepage": "https://mcp.speakai.co"
-    },
-    {
       "name": "spotify-ads-api",
       "description": "Manage Spotify ad campaigns with natural language. Create campaigns, ad sets, ads, pull reports, and handle OAuth — all through conversation.",
       "category": "productivity",
@@ -1899,31 +1843,6 @@
         "sha": "63585cc919da51dd24fab594d829869595301922"
       },
       "homepage": "https://github.com/spotify/ads-claude-plugin"
-    },
-    {
-      "name": "stagehand",
-      "description": "Browser automation skill for Claude Code using Stagehand. Automate web interactions, extract data, and navigate websites using natural language.",
-      "version": "0.1.0",
-      "author": {
-        "name": "Browserbase"
-      },
-      "source": {
-        "source": "github",
-        "repo": "browserbase/agent-browse",
-        "sha": "13a7f4af8e36ca65e67d4da3dd74770e6f43dddd"
-      },
-      "category": "automation",
-      "keywords": [
-        "browser",
-        "automation",
-        "stagehand",
-        "web-scraping"
-      ],
-      "homepage": "https://github.com/browserbase/agent-browse",
-      "strict": false,
-      "skills": [
-        "./.claude/skills/browser-automation"
-      ]
     },
     {
       "name": "stripe",
