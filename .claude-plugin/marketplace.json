@@ -2163,7 +2163,8 @@
       "category": "database",
       "source": {
         "source": "url",
-        "url": "https://github.com/zilliztech/zilliz-plugin.git"
+        "url": "https://github.com/zilliztech/zilliz-plugin.git",
+        "sha": "17cf04e6a3c272320b707d429484e4c00b3bec0b"
       },
       "homepage": "https://docs.zilliz.com"
     },
