@@ -46,7 +46,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/agent-sdk-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/agent-sdk-dev",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev"
     },
@@ -139,7 +145,13 @@
       "name": "asana",
       "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
       "category": "productivity",
-      "source": "./external_plugins/asana",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/asana",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana"
     },
     {
@@ -406,7 +418,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/clangd-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/clangd-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -436,7 +454,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/claude-code-setup",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/claude-code-setup",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup"
     },
@@ -447,7 +471,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/claude-md-management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/claude-md-management",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management"
     },
@@ -521,7 +551,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/code-modernization",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-modernization",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization"
     },
@@ -532,7 +568,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/code-review",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-review",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review"
     },
@@ -543,7 +585,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/code-simplifier",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/code-simplifier",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier"
     },
@@ -565,7 +613,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/commit-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/commit-commands",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands"
     },
@@ -573,7 +627,13 @@
       "name": "context7",
       "description": "Upstash Context7 MCP server for up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
       "category": "development",
-      "source": "./external_plugins/context7",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/context7",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7",
       "tags": [
         "community-managed"
@@ -601,7 +661,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/csharp-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/csharp-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -621,7 +687,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/cwc-makers",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/cwc-makers",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://claude.com/cwc-makers"
     },
@@ -761,7 +833,13 @@
       "name": "discord",
       "description": "Discord messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /discord:access.",
       "category": "productivity",
-      "source": "./external_plugins/discord"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/discord",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      }
     },
     {
       "name": "exa",
@@ -784,7 +862,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/explanatory-output-style",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/explanatory-output-style",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "learning",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style"
     },
@@ -805,7 +889,13 @@
       "name": "fakechat",
       "description": "Localhost web chat for testing the channel notification flow. No tokens, no access control, no third-party service.",
       "category": "development",
-      "source": "./external_plugins/fakechat"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/fakechat",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      }
     },
     {
       "name": "fastly-agent-toolkit",
@@ -824,7 +914,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/feature-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/feature-dev",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/feature-dev"
     },
@@ -853,7 +949,13 @@
       "name": "firebase",
       "description": "Google Firebase MCP integration. Manage Firestore databases, authentication, cloud functions, hosting, and storage. Build and manage your Firebase backend directly from your development workflow.",
       "category": "database",
-      "source": "./external_plugins/firebase",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/firebase",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase"
     },
     {
@@ -874,7 +976,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/frontend-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/frontend-design",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design"
     },
@@ -897,14 +1005,26 @@
       "name": "github",
       "description": "Official GitHub MCP server for repository management. Create issues, manage pull requests, review code, search repositories, and interact with GitHub's full API directly from Claude Code.",
       "category": "productivity",
-      "source": "./external_plugins/github",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/github",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github"
     },
     {
       "name": "gitlab",
       "description": "GitLab DevOps platform integration. Manage repositories, merge requests, CI/CD pipelines, issues, and wikis. Full access to GitLab's comprehensive DevOps lifecycle tools.",
       "category": "productivity",
-      "source": "./external_plugins/gitlab",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/gitlab",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab"
     },
     {
@@ -915,7 +1035,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/gopls-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/gopls-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -931,7 +1057,13 @@
       "name": "greptile",
       "description": "AI-powered codebase search and understanding. Query your repositories using natural language to find relevant code, understand dependencies, and get contextual answers about your codebase architecture.",
       "category": "development",
-      "source": "./external_plugins/greptile",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/greptile",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/greptile"
     },
     {
@@ -941,7 +1073,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/hookify",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/hookify",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify"
     },
@@ -960,7 +1098,13 @@
       "name": "imessage",
       "description": "iMessage messaging bridge with built-in access control. Reads chat.db directly, sends via AppleScript. Manage pairing, allowlists, and policy via /imessage:access.",
       "category": "productivity",
-      "source": "./external_plugins/imessage"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/imessage",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      }
     },
     {
       "name": "intercom",
@@ -981,7 +1125,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/jdtls-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/jdtls-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1018,7 +1168,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/kotlin-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/kotlin-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1039,7 +1195,13 @@
       "name": "laravel-boost",
       "description": "Laravel development toolkit MCP server. Provides intelligent assistance for Laravel applications including Artisan commands, Eloquent queries, routing, migrations, and framework-specific code generation.",
       "category": "development",
-      "source": "./external_plugins/laravel-boost",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/laravel-boost",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost"
     },
     {
@@ -1049,7 +1211,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/learning-output-style",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/learning-output-style",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "learning",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style"
     },
@@ -1070,7 +1238,13 @@
       "name": "linear",
       "description": "Linear issue tracking integration. Create issues, manage projects, update statuses, search across workspaces, and streamline your software development workflow with Linear's modern issue tracker.",
       "category": "productivity",
-      "source": "./external_plugins/linear",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/linear",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear"
     },
     {
@@ -1129,7 +1303,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/lua-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/lua-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1148,7 +1328,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/math-olympiad",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/math-olympiad",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "math",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/math-olympiad"
     },
@@ -1159,7 +1345,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/mcp-server-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/mcp-server-dev",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev"
     },
@@ -1340,7 +1532,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/php-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/php-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1398,7 +1596,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/playground",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/playground",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground"
     },
@@ -1406,7 +1610,13 @@
       "name": "playwright",
       "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
       "category": "testing",
-      "source": "./external_plugins/playwright",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/playwright",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright"
     },
     {
@@ -1416,7 +1626,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/plugin-dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/plugin-dev",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/plugin-dev"
     },
@@ -1459,7 +1675,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/pr-review-toolkit",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/pr-review-toolkit",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit"
     },
@@ -1494,7 +1716,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/pyright-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/pyright-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1583,7 +1811,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/ralph-loop",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/ralph-loop",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop"
     },
@@ -1627,7 +1861,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/ruby-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/ruby-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1651,7 +1891,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/rust-analyzer-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/rust-analyzer-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1698,7 +1944,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/security-guidance",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/security-guidance",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "security",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/security-guidance"
     },
@@ -1729,7 +1981,13 @@
       "name": "serena",
       "description": "Semantic code analysis MCP server providing intelligent code understanding, refactoring suggestions, and codebase navigation through language server protocol integration.",
       "category": "development",
-      "source": "./external_plugins/serena",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/serena",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
       "tags": [
         "community-managed"
@@ -1758,7 +2016,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/session-report",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/session-report",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/session-report"
     },
@@ -1797,7 +2061,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/skill-creator",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/skill-creator",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator"
     },
@@ -1929,7 +2199,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/swift-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/swift-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
@@ -1945,7 +2221,13 @@
       "name": "telegram",
       "description": "Telegram messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /telegram:access.",
       "category": "productivity",
-      "source": "./external_plugins/telegram"
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/telegram",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      }
     },
     {
       "name": "terraform",
@@ -1955,7 +2237,13 @@
         "email": "support@hashicorp.com"
       },
       "category": "development",
-      "source": "./external_plugins/terraform",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "external_plugins/terraform",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform"
     },
     {
@@ -1980,7 +2268,13 @@
         "name": "Anthropic",
         "email": "support@anthropic.com"
       },
-      "source": "./plugins/typescript-lsp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "plugins/typescript-lsp",
+        "ref": "main",
+        "sha": "76b35e91d1c99c090b1a08dade53bcc5e352c1b2"
+      },
       "category": "development",
       "strict": false,
       "lspServers": {
